@@ -1,0 +1,15 @@
+.main {
+    padding: 2rem 2.5rem 2rem 2.5rem;
+}
+
+.body {
+    overflow-x: hidden;
+    min-height: $h-full;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/wallpaper2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $mainColor;
+    font-weight: $textExtraBold;
+}

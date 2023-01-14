@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+html {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../media/wallpaper2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: rgba(0, 0, 0, 0.7254901961);
+  padding: 1.5rem 0rem 0.7rem 0rem;
+  border-top: 0.025rem solid;
+}
+.footer .footerSection li {
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+.footer .footerSection li h3 {
+  color: #37C5F3;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+}
+.footer .containerLogos {
+  border-top: 0.025rem solid;
+}
+.footer .containerLogos img {
+  width: 40px;
+}
+.footer .containerCopyright p {
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.7254901961);
+}
+
+.logo {
+  width: 10rem;
+  margin-left: 7vh;
+}
+
+.btn-cart img {
+  width: 40px;
+}
+
+.main {
+  padding: 2rem 2.5rem 2rem 2.5rem;
+}
+
+.body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/wallpaper2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="icon" type="image/x-icon" href="img/logo/flame.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+  <body class="body container-fluid p-0">
+
+    <!-- Header -->
+    <header class="header row">
+      <div class="col-6 d-flex justify-content-start align-items-center pt-3 pe-1 pb-3">
+        <a href="./index.html"><img src="./img/logo/logo.png" alt="power up logo" class="logo"></a>
+      </div>
+      <div class="col-6 d-flex justify-content-end align-items-center ps-1 pt-3 pe-5 pb-3">
+        <a href="./cart.html" id="cart_button" title="Show Cart"></a>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main row">
+      <section class="col-12 mainSection">
+        <h1 class="text-center mb-4">Items Selected</h1>
+        <div id="drinks_selected" class="row"></div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer row d-flex justify-content-evenly p-3">
+      <ul class="footerSection col">
+        <li><h3>Classics</h3></li>
+        <li>Original Flavor</li>
+        <li>Absolutely Zero</li>
+        <li>Low Carb</li>
+        <li>Recover</li>
+      </ul>
+
+      <ul class="footerSection col">
+        <li><h3>Java</h3></li>
+        <li>Irish Blend</li>
+        <li>Kona Blend</li>
+        <li>Mean Bean</li>
+        <li>Oatmilk</li>
+        <li>Salted Caramel</li>
+      </ul>
+
+      <ul class="footerSection col">
+        <li><h3>Juice</h3></li>
+        <li>Aussie Lemonade</li>
+        <li>Khaotic</li>
+        <li>Mango Loco</li>
+        <li>Pacific Punch</li>
+        <li>Pipeline Punch</li>
+        <li>Pipeline Punch 2.0</li>
+      </ul>
+
+      <ul class="footerSection col">
+        <li><h3>Ultra</h3></li>
+        <li>Ultra Black</li>
+        <li>Ultra Blue</li>
+        <li>Ultra Gold</li>
+        <li>Ultra Paradise</li>
+        <li>Ultra Peachy Keen</li>
+        <li>Ultra Watermelon</li>
+        <li>Ultra Zero</li>
+      </ul>
+
+      <ul class="footerSection col">
+        <li><h3>Special Edition</h3></li>
+        <li>Lewis Hamilton</li>
+        <li>Punch Baller's Blend</li>
+        <li>Punch Mixxd</li>
+      </ul>
+
+      <div class="containerLogos ps-5 pt-4 pb-3">
+        <a href="https://www.whatsapp.com/" rel="noopener" target="_blank"><img src="./img/socialMedia/whatsapp.png" alt="whatsapp logo" class="p-1"></a>
+        <a href="https://www.twitter.com/" rel="noopener" target="_blank"><img src="./img/socialMedia/twitter.png" alt="twitter logo" class="p-1"></a>
+        <a href="https://www.instagram.com/" rel="noopener" target="_blank"><img src="./img/socialMedia/instagram.png" alt="instagram logo" class="p-1"></a>
+        <a href="https://www.youtube.com/" rel="noopener" target="_blank"><img src="./img/socialMedia/youtube.png" alt="youtube logo" class="p-1"></a>
+        <a href="https://www.facebook.com/" rel="noopener" target="_blank"><img src="./img/socialMedia/facebook.png" alt="facebook logo" class="p-1"></a>
+      </div>
+
+      <div class="containerCopyright ps-5 pt-3">
+        <p>Copyright © 2023 All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="./js/drinks.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/main_cart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.footer {
+    margin-top: auto;
+    background-color: #000000b9;
+    padding: 1.5rem 0rem 0.7rem 0rem;
+    border-top: 0.025rem solid;
+    .footerSection {
+      li {
+        color: $mainColor;
+        font-size: 0.8rem;
+        margin: 0.5rem 0 0.5rem 0;
+        h3 {
+          color: $keyColor2;
+          font-weight: $textExtraBold;
+          font-size: 1.3rem;
+          margin-bottom: 1.2rem;
+        }
+      }
+    }
+
+    .containerLogos {
+      border-top: 0.025rem solid;
+      img {
+        width: 40px;
+      }
+    }
+    .containerCopyright {
+      p {
+        font-size: 0.8rem;
+        color:$mainColor;
+      }
+    }
+}
