@@ -35,7 +35,7 @@ const storeDrinksCart = (drinks) => {
       cart_drinks.push(drink);
     }
   
-    storeBooksCart(cart_drinks);
+    storeDrinksCart(cart_drinks);
     renderCartButton();
   }
   
