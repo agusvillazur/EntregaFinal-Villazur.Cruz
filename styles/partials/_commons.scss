@@ -3,15 +3,6 @@
 
 $fontMain:'Poppins';
 
-$fontSize:(
-    'cero': 0.8rem,
-    'uno': 1rem,
-    'dos': 1.2rem,
-    'tres': 2rem,
-    'cuatro': 2.5rem,
-    'cinco': 3rem,
-)
-
 ;
 $textM: 3rem;
 $textS: 2rem;
@@ -21,9 +12,6 @@ $textNormal: 500;
 $textBold: 600;
 $textExtraBold: 700;
 
-*{
-    font-family: $fontMain;
-}
 
 //variables globales
 
