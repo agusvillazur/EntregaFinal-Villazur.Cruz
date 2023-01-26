@@ -46,3 +46,27 @@ const renderDrinksCart = () => {
 
 renderDrinksCart();
 renderCartButton();
+
+//popup discount
+function discount (){
+  let discount = document.querySelector(".discount")
+  let cancelDiscountBtn = document.querySelector(".d_btn.cancel")
+  let acceptDiscountBtn = document.querySelector(".d_btn.accept")
+  
+  cancelDiscountBtn.addEventListener("click", function (){
+    discount.classList.remove("active")
+  })
+  acceptDiscountBtn.addEventListener("click", function (){
+      discount.classList.remove("active")
+      localStorage.setItem("discountAccepted", "yes")
+  })
+  
+  setTimeout(function (){
+      let discountAccepted = localStorage.getItem("dicountAccepted")
+      if (discountAccepted != "yes"){
+        discount.classList.add("active")
+      }
+  }, 3000)
+}
+
+document.getElementById("cart_button").addEventListener("click", discount())

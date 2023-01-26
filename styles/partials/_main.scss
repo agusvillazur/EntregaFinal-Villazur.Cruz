@@ -13,3 +13,107 @@
     color: $mainColor;
     font-weight: $textExtraBold;
 }
+
+.disclaimer{
+    margin: 20px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    &:hover{
+        color: white;
+        background-color: #000000;
+        box-shadow: 0px 0px 19px 5px #37c5f3;
+    }
+}
+
+.title1{
+    font-size: 4rem;
+    font-weight: 600;
+    transition: 0.3s;
+    &:hover{
+        letter-spacing: 6px;
+    }
+}
+
+#drinks{
+    img{
+        transition: 0.4s ease-in-out all;
+        object-position: 50% 50%;
+        &:hover{
+            transform: scale(1.02);
+        } 
+    }
+}
+
+//dicount popup
+.discount{
+    height: auto;
+    width: 500px;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    display: none;
+    align-items: flex-end;
+    transition: 0.3s;
+    &:hover{
+        box-shadow: 0px 0px 19px 5px #37c5f3;
+    }
+    h1{
+        text-align: center;
+        color: #37c5f3;
+        font-weight: bolder;
+        margin: 0%;
+        font-size: 4rem;
+    }
+    h3{
+        text-align: center;
+        margin: 0%;
+        font-size: 1.5rem;
+    }
+    p{
+        margin-top: 40px;
+    }
+}
+
+.destacado{
+    color: #37c5f3;
+}
+
+.discount.active{
+    transition: 0.5s;
+    display: flex;
+}
+
+.content{
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.discount_btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2em;
+}
+
+.d_btn{
+    border: none;
+    outline: none;
+    padding: .8em 1.5em;
+    width: 100px;
+    margin-right: 1em;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.d_btn.accept{
+    background-color: #37c5f3;
+    color: #fff;
+    transition: 0.3s;
+    &:hover{
+        color: #000000;
+    }
+}

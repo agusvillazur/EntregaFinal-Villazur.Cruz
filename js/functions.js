@@ -1,6 +1,6 @@
-const storeDrinksCart = (drinks) => {
-    localStorage.setItem("cart", JSON.stringify(drinks));
-  }
+function storeDrinksCart(drinks) {
+  localStorage.setItem("cart", JSON.stringify(drinks));
+}
   
   const loadDrinksCart = () => {
     return JSON.parse(localStorage.getItem("cart")) || [];
@@ -99,14 +99,10 @@ const storeDrinksCart = (drinks) => {
     let position = cart_drinks.findIndex(item => item.id === id);
     cart_drinks[position].quantity -= 1;
   
-    if (cart_drinks[position].quantity == 0) {
-      deleteItemCart(id);
-    }
-    else {
+    (cart_drinks[position].quantity == 0) ? deleteItemCart(id) :
       storeDrinksCart(cart_drinks);
       renderDrinksCart();
-      renderCartButton();
-    }
+      renderCartButton();  
   }
   
   const searchDrink = (id) => {

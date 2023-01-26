@@ -1,0 +1,17 @@
+[
+    {"id":1, "city":"TUCUMÁN", "neighborhood":"Barrio Norte", "attention_hours": "Monday to Friday (9am-19pm)", "imagen":"barrionorte.png"},
+    {"id":2, "city":"TUCUMÁN", "neighborhood":"Barrio Sur", "attention_hours": "Monday to Friday (9am-18pm)", "imagen":"barriosur.png"},
+    {"id":3, "city":"TUCUMÁN", "neighborhood":"Tafí Viejo", "attention_hours": "Monday to Friday (9am-19pm)", "imagen":"tafiviejo.png"},
+    {"id":4, "city":"CÓRDOBA", "neighborhood":"Güemes", "attention_hours": "Monday to Friday (9am-18pm)", "imagen":"guemes.png"},
+    {"id":5, "city":"CÓRDOBA", "neighborhood":"Nueva Córdoba", "attention_hours": "Monday to Friday (9am-19pm)", "imagen":"nuevacordoba.png"},
+    {"id":6, "city":"BUENOS AIRES", "neighborhood":"Belgrano", "attention_hours": "Monday to Friday (9am-18pm)", "imagen":"belgrano.png"},
+    {"id":7, "city":"BUENOS AIRES", "neighborhood":"Palermo", "attention_hours": "Monday to Friday (10am-21pm)", "imagen":"palermo.png"},
+    {"id":8, "city":"CÓRDOBA", "neighborhood":"Alberdi", "attention_hours": "Monday to Friday (9am-19pm)", "imagen":"alberdi.png"},
+    {"id":9, "city":"BUENOS AIRES", "neighborhood":"Vélez Sársfield", "attention_hours": "Monday to Friday (8am-17pm)", "imagen":"velez.png"},
+    {"id":10, "city":"ROSARIO", "neighborhood":"Abasto", "attention_hours": "Monday to Friday (9am-19pm)", "imagen":"abasto.png"},
+    {"id":11, "city":"BUENOS AIRES", "neighborhood":"Villa Crespo", "attention_hours": "Monday to Friday (8am-17pm)", "imagen":"villacrespo.png"},
+    {"id":12, "city":"ROSARIO", "neighborhood":"Godoy", "attention_hours": "Monday to Friday (9am-19pm)", "imagen":"godoy.png"},
+    {"id":13, "city":"CÓRDOBA", "neighborhood":"San Vicente", "attention_hours": "Monday to Friday (9am-20pm)", "imagen":"sanvicente.png"},
+    {"id":14, "city":"ROSARIO", "neighborhood":"Echesortu", "attention_hours": "Monday to Friday (9am-19pm)", "imagen":"echesortu.png"},
+    {"id":15, "city":"SALTA", "neighborhood":"Mariano Moreno", "attention_hours": "Monday to Friday (9am-20pm)", "imagen":"marianomoreno.png"}
+]
